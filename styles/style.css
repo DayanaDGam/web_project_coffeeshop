@@ -5,7 +5,13 @@
   font-size: 16px;
   line-height: 20px;
   font-family: "Inter", Arial, sans-serif;
-  font-family: "Roboto", serif, Times New Roman;
+  font-family: "Roboto", "Times New Roman", serif;
   font-size: 16px;
   line-height: 20px;
+}
+
+.content {
+}
+
+.footer {
 }

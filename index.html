@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Dayana Davila" />
     <meta name="author" content="Dayana Davila" />
-    <meta name="description" content="My Coffee Shop" />
+    <meta name="description" content="Mi tienda de café" />
     <meta name="keywords" content="café, coffee shop, productos de café" />
     <title>My Coffe Shop</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -31,7 +31,53 @@
   <body>
     <div class="page">
       <header class="header">
-        <nav><p>Prueba</p></nav>
+        <nav class="nav">
+          <img
+            src="./images/logo_coffeeshop_dark.svg"
+            alt="logo cafeteria"
+            class="nav__logo"
+          />
+          <ul class="nav__links">
+            <li>
+              <a class="nav__links" href="#recipes">Recetas</a>
+            </li>
+            <li>
+              <a class="nav__links" href="#reservation">Reserva una mesa</a>
+            </li>
+            <li>
+              <a class="nav__links" href="#footer">Contactos</a>
+            </li>
+          </ul>
+        </nav>
+        <h1 class="header_title">
+          <span class="header__span-accent">Café de especialidad</span>
+          "en Triple Peaks"
+        </h1>
+        <p class="header__description">
+          ¡Te damos la bienvenida a nuestra zona de estudio! Aquí tenemos café
+          para darte energía y motivar tu creatividad.
+        </p>
+        <img
+          src="./images/inside_coffee_shop.png"
+          alt="Interior del café"
+          class="header__image"
+        />
+        <div class="header__footer">
+          <div class="header__timetable">
+            <p class="header__paragraph">Horarios:</p>
+            <p class="header__paragraph">
+              Lunes a viernes (de 10:00h a 19:00h)
+            </p>
+            <p class="header__paragraph">
+              Sábados y Domingos (de 11:00h a 18:00h)
+            </p>
+          </div>
+          <div class="header__address">
+            <p class="header__paragraph">
+              Avenida del Éxito 200, Ciudad Triple Peaks
+            </p>
+          </div>
+        </div>
       </header>
       <main class="content">
         <section class="recipes"></section>

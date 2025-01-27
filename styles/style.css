@@ -79,17 +79,6 @@
   color: #2f80ed;
 }
 
-.header__title_span-accent {
-  display: flex;
-  font-family: "Inter", Arial, sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 58px;
-  line-height: 72px;
-  margin-left: 80px;
-  color: #000000;
-}
-
 .header__description {
   display: flex;
   flex-direction: column;

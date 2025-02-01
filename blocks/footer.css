@@ -60,7 +60,12 @@
   text-decoration: none;
   color: #fff;
 }
-m .footer__list {
+
+.footer__social-link:hover {
+  color: #c1c1c1;
+}
+
+.footer__list {
   list-style-type: none;
   margin: 20px 0 0;
   padding: 0;

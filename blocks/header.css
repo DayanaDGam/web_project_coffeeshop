@@ -13,8 +13,8 @@
 
 .header__title {
   display: flex;
-  flex-direction: column;
-  position: relative;
+  flex-wrap: wrap;
+  align-items: baseline;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-size: 58px;
@@ -23,16 +23,16 @@
   letter-spacing: -1px;
   left: 80px;
   max-width: 709px;
+  gap: 8px;
+  margin-left: 80px;
 }
 
 .header__span-accent {
-  display: flex;
   font-family: "Noto Serif", Times, sans-serif;
   font-style: italic;
   font-weight: normal;
-  font-size: 58px;
-  line-height: 72px;
-  margin-left: 80px;
+  font-size: inherit;
+  line-height: inherit;
   color: #2f80ed;
 }
 
